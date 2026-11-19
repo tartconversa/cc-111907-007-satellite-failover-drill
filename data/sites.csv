@@ -1,0 +1,4 @@
+site_id,region,capability_version,priority
+s-1,north,v2,high
+s-2,north,v1,medium
+s-3,south,v2,high
