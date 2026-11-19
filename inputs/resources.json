@@ -1,0 +1,50 @@
+[
+  {
+    "resource": "T1",
+    "type": "terminal",
+    "capacity": 1,
+    "initial_site": "A",
+    "skills": [
+      "voice",
+      "data"
+    ]
+  },
+  {
+    "resource": "T2",
+    "type": "terminal",
+    "capacity": 1,
+    "initial_site": "C",
+    "skills": [
+      "voice"
+    ]
+  },
+  {
+    "resource": "SAT",
+    "type": "channel",
+    "capacity": 2,
+    "initial_site": "A",
+    "skills": [
+      "voice",
+      "data"
+    ]
+  },
+  {
+    "resource": "O1",
+    "type": "operator",
+    "capacity": 1,
+    "initial_site": "A",
+    "skills": [
+      "data",
+      "voice"
+    ]
+  },
+  {
+    "resource": "O2",
+    "type": "operator",
+    "capacity": 1,
+    "initial_site": "C",
+    "skills": [
+      "voice"
+    ]
+  }
+]

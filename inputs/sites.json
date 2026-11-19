@@ -1,0 +1,14 @@
+[
+  {
+    "site": "A",
+    "region": "north"
+  },
+  {
+    "site": "B",
+    "region": "north"
+  },
+  {
+    "site": "C",
+    "region": "south"
+  }
+]

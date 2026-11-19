@@ -1,4 +1,0 @@
-observation_id,drill_id,step,target,source,result,observed_utc
-o1,d1,call-center,service,device,success,2026-11-18T01:05:00Z
-o2,d1,dispatch,service,observer,failed,2026-11-18T01:12:00Z
-o3,d2,call-center,service,device,success,2026-11-18T02:10:00Z

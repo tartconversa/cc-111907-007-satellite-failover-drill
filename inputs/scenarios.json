@@ -1,0 +1,21 @@
+[
+  {
+    "scenario": "dual",
+    "start": "2026-11-19T08:00:00Z",
+    "outage_sites": [
+      "A",
+      "B"
+    ],
+    "duration_minutes": 120
+  },
+  {
+    "scenario": "all",
+    "start": "2026-11-19T08:00:00Z",
+    "outage_sites": [
+      "A",
+      "B",
+      "C"
+    ],
+    "duration_minutes": 150
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "sites.json": "1bdab624d64ce85c77ad014de7b0e4837ce3d3f26e2af2eca3a1f03562a99d79",
+    "resources.json": "4dbd1190aa3b127dcf8c8dfbdf38724db3a8ca5003a30316166e0b8a268f76dc",
+    "transfers.json": "909a0599ba0338beb4cb2e5a97be504aedb24f8396c10ba13faf0993d556ca78",
+    "business.json": "249f6c3021c3db65485b13e892d7e04a0e7cb0a289c59239acd915ba89ea94ec",
+    "scenarios.json": "0ffcf51c8c12acc531c7cb59969535965e78f287a754af895409ef334143c7bc",
+    "evidence.json": "040f0ebefd2dc9e9fcccf68bfa9c1613098a37abf929ea230d3f8e9e9b8ae56e",
+    "schema.json": "a84c18e1a4822f263109dda6cad29eaf73445549a3cc0f26a0e6fe6c29829697"
+  },
+  "synthetic": true
+}

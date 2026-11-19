@@ -1,0 +1,57 @@
+[
+  {
+    "observation": "E1",
+    "drill": "D1",
+    "business": "call-A",
+    "config": "v2",
+    "resource": "T1",
+    "source": "machine",
+    "result": "success",
+    "start": "2026-11-15T08:00:00Z",
+    "end": "2026-11-15T08:20:00Z"
+  },
+  {
+    "observation": "E2",
+    "drill": "D1",
+    "business": "call-A",
+    "config": "v2",
+    "resource": "T1",
+    "source": "observer",
+    "result": "success",
+    "start": "2026-11-15T08:00:00Z",
+    "end": "2026-11-15T08:20:00Z"
+  },
+  {
+    "observation": "E3",
+    "drill": "D2",
+    "business": "dispatch-A",
+    "config": "v2",
+    "resource": "T1",
+    "source": "machine",
+    "result": "success",
+    "start": "2026-11-15T09:00:00Z",
+    "end": "2026-11-15T09:25:00Z"
+  },
+  {
+    "observation": "E4",
+    "drill": "D2",
+    "business": "dispatch-A",
+    "config": "v2",
+    "resource": "T1",
+    "source": "observer",
+    "result": "fail",
+    "start": "2026-11-15T09:00:00Z",
+    "end": "2026-11-15T09:25:00Z"
+  },
+  {
+    "observation": "E5",
+    "drill": "D3",
+    "business": "call-B",
+    "config": "v1",
+    "resource": "T1",
+    "source": "machine",
+    "result": "success",
+    "start": "2026-11-14T08:00:00Z",
+    "end": "2026-11-14T08:25:00Z"
+  }
+]

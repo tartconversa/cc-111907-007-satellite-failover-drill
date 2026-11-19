@@ -1,0 +1,32 @@
+[
+  {
+    "from_site": "A",
+    "to_site": "B",
+    "minutes": 25
+  },
+  {
+    "from_site": "B",
+    "to_site": "A",
+    "minutes": 25
+  },
+  {
+    "from_site": "A",
+    "to_site": "C",
+    "minutes": 70
+  },
+  {
+    "from_site": "C",
+    "to_site": "A",
+    "minutes": 70
+  },
+  {
+    "from_site": "B",
+    "to_site": "C",
+    "minutes": 55
+  },
+  {
+    "from_site": "C",
+    "to_site": "B",
+    "minutes": 55
+  }
+]

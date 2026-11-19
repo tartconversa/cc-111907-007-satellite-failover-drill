@@ -1,0 +1,63 @@
+{
+  "sites": {
+    "definition": "站点位置决定终端转移耗时。",
+    "columns": {
+      "site": "站点",
+      "region": "区域"
+    }
+  },
+  "resources": {
+    "definition": "全局共享资源，不按站点复制。",
+    "columns": {
+      "resource": "资源",
+      "type": "terminal/channel/operator",
+      "capacity": "同时承载数量",
+      "initial_site": "初始站点",
+      "skills": "资格/能力"
+    }
+  },
+  "transfers": {
+    "definition": "有向移动分钟数，未列路径不可假设瞬移。",
+    "columns": {
+      "from_site": "起点",
+      "to_site": "终点",
+      "minutes": "分钟"
+    }
+  },
+  "business": {
+    "definition": "同情景业务依赖与恢复承诺。",
+    "columns": {
+      "business": "业务",
+      "site": "站点",
+      "kind": "voice/data",
+      "deadline_minutes": "中断后最晚开始分钟",
+      "duration_minutes": "持续分钟",
+      "depends": "需先完成业务",
+      "priority": "优先级",
+      "config": "配置版本"
+    }
+  },
+  "scenarios": {
+    "definition": "情景内 outage_sites 同时发生中断。",
+    "columns": {
+      "scenario": "情景",
+      "start": "起点",
+      "outage_sites": "受影响站点",
+      "duration_minutes": "中断持续"
+    }
+  },
+  "evidence": {
+    "definition": "演练步骤证据，由 observation 标识独立观察。",
+    "columns": {
+      "observation": "观察记录",
+      "drill": "演练身份",
+      "business": "业务",
+      "config": "配置",
+      "resource": "终端",
+      "source": "machine/observer",
+      "result": "success/fail",
+      "start": "实测开始",
+      "end": "实测完成"
+    }
+  }
+}

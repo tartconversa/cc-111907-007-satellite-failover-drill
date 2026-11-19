@@ -1,0 +1,44 @@
+[
+  {
+    "business": "call-A",
+    "site": "A",
+    "kind": "voice",
+    "deadline_minutes": 10,
+    "duration_minutes": 20,
+    "depends": [],
+    "priority": 1,
+    "config": "v2"
+  },
+  {
+    "business": "dispatch-A",
+    "site": "A",
+    "kind": "data",
+    "deadline_minutes": 45,
+    "duration_minutes": 25,
+    "depends": [
+      "call-A"
+    ],
+    "priority": 1,
+    "config": "v2"
+  },
+  {
+    "business": "call-B",
+    "site": "B",
+    "kind": "voice",
+    "deadline_minutes": 15,
+    "duration_minutes": 25,
+    "depends": [],
+    "priority": 1,
+    "config": "v2"
+  },
+  {
+    "business": "report-C",
+    "site": "C",
+    "kind": "voice",
+    "deadline_minutes": 90,
+    "duration_minutes": 20,
+    "depends": [],
+    "priority": 2,
+    "config": "v1"
+  }
+]

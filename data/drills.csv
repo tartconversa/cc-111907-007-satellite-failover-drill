@@ -1,4 +1,0 @@
-drill_id,site_id,plan_version,start_utc,end_utc,status
-d1,s-1,p2,2026-11-18T01:00:00Z,2026-11-18T01:30:00Z,submitted
-d2,s-2,p1,2026-11-18T02:00:00Z,2026-11-18T02:40:00Z,submitted
-d3,s-1,p2,2026-11-18T01:00:00Z,2026-11-18T01:30:00Z,late-upload

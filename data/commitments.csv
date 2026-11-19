@@ -1,4 +1,0 @@
-commitment_id,site_id,plan_version,business,required_by
-c1,s-1,p2,call-center,quarterly
-c2,s-1,p2,dispatch,quarterly
-c3,s-2,p1,call-center,quarterly
